@@ -29,11 +29,11 @@
   "main() template": {
     "prefix": "main",
     "body": [
-      "#include <cstdio>",
-      "#include <cstdlib>",
+      "#include <stdio.h>",
+      "#include <stdlib.h>",
       "",
       "int main(int argc, char *argv[]) {",
-      "$0",
+      "\t$0",
       "",
       "\treturn EXIT_SUCCESS;",
       "}"
@@ -47,7 +47,7 @@
       "#include <stdlib.h>",
       "",
       "int main(void) {",
-      "$0",
+      "\t$0",
       "",
       "\treturn EXIT_SUCCESS;",
       "}"
