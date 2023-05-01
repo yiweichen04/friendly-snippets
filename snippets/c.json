@@ -29,6 +29,9 @@
   "main() template": {
     "prefix": "main",
     "body": [
+      "#include <cstdio>",
+      "#include <cstdlib>",
+      "",
       "int main(int argc, char *argv[]) {",
       "$0",
       "",
@@ -40,6 +43,9 @@
   "main(void) template": {
     "prefix": "mainn",
     "body": [
+      "#include <stdio.h>",
+      "#include <stdlib.h>",
+      "",
       "int main(void) {",
       "$0",
       "",
